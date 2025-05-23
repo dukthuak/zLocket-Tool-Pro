@@ -115,7 +115,16 @@ class zLocket:
         self.VERSION_TOOL="v1.0.6"
         self.TARGET_FRIEND_UID=target_friend_uid if target_friend_uid else None
         self.PROXY_LIST=[
-            # 'https://thanhdieu.com/api/list/free-proxy.txt',
+            'https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt',
+            'https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt',
+            'https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt',
+            'https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt',
+            'https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies/http.txt',
+            'https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies/socks4.txt',
+            'https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies/socks5.txt',
+            'https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt',
+            'https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt',
+            'https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt',
         ]
         self.print_lock=threading.Lock()
         self.successful_requests=0
